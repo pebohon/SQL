@@ -1,3 +1,5 @@
+#This analysis utilized the following Fortune 500 dataset:
+
 CREATE TABLE fortune_companies (
     company_id INTEGER PRIMARY KEY,
     company_name TEXT,
@@ -56,6 +58,7 @@ VALUES
     ('Company JJ', 'Manufacturing', 370.0, 3100, 1, 20, 12, 7.6),
     ('Company KK', 'Healthcare', 150.2, 3400, 0, 16, 8, 5.3);
 
+# Analysis: 
 
 --which companies have benefits *and* at least 20 paid time off days 
 select company_name, paid_time_off_days, healthcare_benefits
